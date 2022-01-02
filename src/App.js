@@ -1,10 +1,9 @@
 import './App.css'
-import MyComponent from './MyComponent'
+import Say from './Say'
 
 const App = () => {
   return (
-    // props 값 지정하기
-    <MyComponent name="react" favoriteNumber={1}>리액트</MyComponent>
+    <Say />
   );
 };
 
